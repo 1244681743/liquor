@@ -1,0 +1,178 @@
+body{
+	margin: 0 auto;
+}
+.auto-img{
+	width: 100%;
+	display: block;/* 布局直接撑开，不可设置宽高 */
+}
+#bg{
+	position:fixed; /* 生成绝对定位的元素，相对于浏览器窗口进行定位 */
+	width:100%;
+	height:100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin:0 auto;
+	background-repeat: no-repeat;
+}
+.cloud1{
+	position: absolute;
+	width: 200px;
+	top: 50px;
+	animation: yunL 20s linear infinite;
+}
+@keyframes yunL{
+	from{
+		right: 0%;
+	}
+	to{
+		right: 100%;
+	}
+}
+.cloud2{
+	position: absolute;
+	width: 200px;
+	top: 10px;
+	
+	animation: yunR 25s linear infinite;
+}
+@keyframes yunR{
+	from{
+		right: -10%;
+	}
+	to{
+		right: 100%;
+	}
+}
+
+#hy{
+	position:absolute;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	width: 360px;
+	left:0;  
+	right:0;  
+	top:30%; 
+	margin:auto;
+	background-image:-webkit-linear-gradient(bottom,white,#ff5a31);	 /* 文本元素提供渐变背景 */
+	-webkit-background-clip:text; /* 使用透明颜色填充文本 */
+	-webkit-text-fill-color:transparent;  /* 用文本剪辑背景，用渐变背景作为颜色填充文本 */
+}
+.botton{
+	position:absolute;
+	width: 100px; /* 宽度 */
+	height: 40px; /* 高度 */
+	left:0;
+	right:0;  
+	top:50%; 
+	margin:auto;
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 10px; /* 边框半径 */
+	background-image:-webkit-linear-gradient(bottom,pink,#14d8ff); /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 17px; /* 字体大小 */
+}
+
+.box{
+	border-radius: 10px;
+	position: absolute;
+	width: 700px;
+	height: 180%;
+	background-image: -webkit-linear-gradient(right,#ffb5ec,#fffc8a,#67fff5);
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.jl{
+	position:absolute;
+	font-family: "微软雅黑";
+	font-size: 40px;
+	width: 360px;
+	left:0;  
+	right:0;  
+	margin:auto;
+	background-image:-webkit-linear-gradient(bottom,white,#ff5a31);	 /* 文本元素提供渐变背景 */
+	-webkit-background-clip:text; /* 使用透明颜色填充文本 */
+	-webkit-text-fill-color:transparent; 
+}
+#name{
+	position: absolute;
+	font-family: "方正姚体";
+	font-size: 20px;
+	width: 123px;
+	left: 35px;
+	top: 20px;
+}
+
+#mz{
+	position: absolute;
+	font-family: 宋体;
+	font-size: 18px;
+	width: 500px;
+	top: 100px;
+	left: 30px;
+}
+#tp{
+	margin-top: 40px ;
+	padding: 30px;
+	float: right;
+}
+#pj{
+	position: absolute;
+	width: 200px;
+	height: 36px;
+	top: 220px;
+	
+}
+p{
+	position: absolute;
+	font-family: "方正姚体";
+	font-size: 20px;
+	width: 600px;
+	top:50px
+}
+#ah{
+	position: absolute;
+	width: 200px;
+	height: 36px;
+	top: 400px;	
+}
+#jl{
+	position: absolute;
+	width: 200px;
+	height: 36px;
+	top: 530px;
+}
+#zs{
+	position: absolute;
+	width: 310px;
+	height: 200px;
+	top: 620px;
+}
+#jn{
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	top: 750px;
+}
+.botton1{
+	position:absolute;
+	width: 100px; /* 宽度 */
+	height: 40px; /* 高度 */
+	left:0;
+	right:0;  
+	top:95%; 
+	margin:auto;
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 10px; /* 边框半径 */
+	background-image:-webkit-linear-gradient(bottom,#ff0000,#0022ff); /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 17px; /* 字体大小 */
+}
